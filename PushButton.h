@@ -13,4 +13,4 @@ private:
     uint8_t _pin;
     bool _blocking;
     bool _lastValue;
-}
+};
