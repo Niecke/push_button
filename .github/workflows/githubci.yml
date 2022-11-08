@@ -19,8 +19,8 @@ jobs:
       - name: Install the prerequisites
         run: bash ci/actions_install.sh
 
-      - name: Check for correct code formatting with clang-format
-        run: python3 ci/run-clang-format.py -e "ci/*" -e "bin/*" -r .
+      #- name: Check for correct code formatting with clang-format
+      #  run: python3 ci/run-clang-format.py -e "ci/*" -e "bin/*" -r .
 
       #- name: Check for correct documentation with doxygen
       #  env:
