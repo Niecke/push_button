@@ -16,6 +16,6 @@ void loop()
 {
     if (pushButton.isPressed())
     {
-        Serial.printf("The button was pressed.");
+        Serial.println("The button was pressed.");
     }
 }
