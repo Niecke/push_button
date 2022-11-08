@@ -8,7 +8,7 @@ PushButton::PushButton(uint8_t pin, bool blocking)
 
 bool PushButton::isPressed()
 {
-    if (blocking)
+    if (_blocking)
     {
         bool sensorVal = digitalRead(_pin) ? true : false;
         while (sensorVal)
